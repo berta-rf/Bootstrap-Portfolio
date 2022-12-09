@@ -1,73 +1,93 @@
 
 body { 
-    background: linear-gradient(rgb(142, 55, 1), rgb(170, 75, 38), rgb(197, 97, 71), rgb(225, 118, 103), rgb(252, 141, 137));
+    background: linear-gradient(rgb(147, 96, 2), rgb(170, 110, 54), rgb(191, 125, 93), rgb(212, 140, 131), rgb(231, 156, 171));
+    font-family: "Titillium Web";
 }
 
 main {
     margin: 5%;
 }
 
-
 .jumbotron {
-
-    background-image: url(../images/hero.jpg);
+    background-image: url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
 
 .jumbotron h1 {
-    font-size: 70px;
+    font-size: 75px;
     color: antiquewhite;
-    font-weight: bolder;
+    font-weight: bold;
+}
 
+.nav-link {
+    color: antiquewhite;
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+.nav-link:hover {
+    color: rgb(211, 93, 47);
 }
 
 h2 {
-    font-size: 45px !important;
+    font-size: 55px !important;
     color: antiquewhite;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 .jumbotron img {
     border-radius: 40px;
 }
 
-
+.badge {
+    background-color: rgb(238, 186, 196);
+    padding: 15px;
+    margin: 5px;
+    font-size: 18px;
+    color: rgb(97, 26, 12);
+}
 
 .card {
     border: 0;
     border-radius: 15px;
     background-color: antiquewhite;
-
 }
 
-.card {
-    border-radius: 15px 15px 0 0;
-    opacity: 1;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-   
+.card img {
+    border-radius: 15px 15px 0px 0px;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card:hover img {
+	opacity: .5;
 }
 
-.card img:hover {
-    opacity: 0.3;
+.card:hover a {
 
+    text-decoration: none;
+    color: rgb(211, 93, 47);
 }
 
 a {
     color: rgb(97, 26, 12);
-    text-decoration: none;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 p { 
     font-size: 22px !important;
-    color: rgb(42, 33, 33);
+    color: rgb(97, 26, 12);
 }
 
-footer {
-    background-color:;
+
+footer a:hover {
+   color: rgb(238, 186, 196);
+   text-decoration: none;
 }
 
