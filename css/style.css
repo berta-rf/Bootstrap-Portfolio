@@ -1,0 +1,73 @@
+
+body { 
+    background: linear-gradient(rgb(142, 55, 1), rgb(170, 75, 38), rgb(197, 97, 71), rgb(225, 118, 103), rgb(252, 141, 137));
+}
+
+main {
+    margin: 5%;
+}
+
+
+.jumbotron {
+
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+    color: antiquewhite;
+    font-weight: bolder;
+
+}
+
+h2 {
+    font-size: 45px !important;
+    color: antiquewhite;
+}
+
+.jumbotron img {
+    border-radius: 40px;
+}
+
+
+
+.card {
+    border: 0;
+    border-radius: 15px;
+    background-color: antiquewhite;
+
+}
+
+.card {
+    border-radius: 15px 15px 0 0;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+}
+
+.card img:hover {
+    opacity: 0.3;
+
+}
+
+a {
+    color: rgb(97, 26, 12);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+p { 
+    font-size: 22px !important;
+    color: rgb(42, 33, 33);
+}
+
+footer {
+    background-color:;
+}
+

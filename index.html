@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Berta | Web Developer</title>
 </head>
+
 <body>
   
-<!-- commit first!!!!  -->
+<!-- JUMBOTRON -->
   <div class="jumbotron">
-
-      <nav class="navbar navbar-expand-md">
+<!-- NAVIGATION -->
+      <nav class="navbar mb-5 navbar-expand-md">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +25,7 @@
               <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#work">Work</a>
@@ -36,8 +37,6 @@
         </div>
       </nav>
 
-      <hr class="my-3">
-
       <div class="container">
 
         <div class="row">
@@ -47,7 +46,7 @@
 
             <div class="col col-lg-9">
               <h1 class="display-4">Berta Romano Fernandez</h1>
-              <h2 class="lead">Front-end Developer</h2>
+              <h2>Front-end Developer</h2>
             </div>
         </div>
 
@@ -55,65 +54,109 @@
       
   </div>
     
-  <main class="container" id="content">
+  <main class="container">
 
-    <section class="row" id="skills">
+    <!-- ABOUT ME -->
+    <section class="mt-5" id="about">
+      <h2>About Me</h2>
+      <div class="row">
+          <div class="col description">
+            
+            <p class="mt-3">
+              Currently enrolled in edX Front End Web Development Bootcamp and looking for new challenges.
+            </p>
+            <p>
+              Former Social Worker, and now also an ex-Sommelier, although you won't take the wine geek out of me (let's talk about soils!).
+              Also recently completed Google's Project Management course, where
+              I learned new tools and gained an understanding of Agile methodologies and the project life-cycle.
+              Extensive hospitality experience shaped me into a resilient and 
+              adaptable individual ready to dive into a new industry.
+            </p>
+         </div>
+      </div> 
+    </section>
+
+    <!-- SKILLS -->
+    <section class="mt-5" id="skills">
+
+        <h2>Skills</h2>
+        
+            <p class="mt-3">Git / GitHub
+            | HTML
+            | CSS
+            | UX design
+            | JavaScript
+            | Bootstrap
+            | APIs
+            | JQuery
+            | JSON
+            | Node.js
+            | React
+            | Python    
+            | Agile Methodologies
+            </p>
 
     </section>
 
-    <section class="row cards" id="work">
+    <!-- WORK -->
+    <section class="mt-5" id="work">
+      <h2>Work</h2>
+
         <div class="row row-cols-1 row-cols-md-2">
-          <div class="col mb-4">
+          
+          <div class="col mb-4 mt-3">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./images/order-summary.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a target="_blank" href="https://berta-rf.github.io/order-summary-component-main/" class="stretched-link"><h3 class="card-title">Order Summary Component</h3></a>
+                <p class="card-text">Responsive Order Summary card build using Bootstrap 5.2 and customized with SCSS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 mt-3">
+            <div class="card">
+              <img src="./images/bmi-screenshot.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a target="_blank" href="https://bertraps.pythonanywhere.com/" class="stretched-link"><h3 class="card-title">BMI Calculator</h3></a>
+                <p class="card-text">BMI Calculator website build with HTML, CSS, Python and Flask. Deployed with Python Anywhere.</p>
               </div>
             </div>
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./images/cheatsheet-screenshot.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a target="_blank" href="https://berta-rf.github.io/css-cheatsheet/" class="stretched-link"><h3 class="card-title">Snippet Cheatsheet</h3></a>
+                <p class="card-text">CSS Cheatsheet webpage build with HTML and CSS to save CSS code tricks in.
+                  When hovering over a code card, just one click on the code will auto-select all, so you can copy to clipboard.</p>
               </div>
             </div>
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./images/horiseon-screenshot.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <a target="_blank" href="https://berta-rf.github.io/horiseon-accessibility/" class="stretched-link"><h3 class="card-title">Accessibility Code Refactor</h3></a>
+                <p class="card-text">Code refactor to improve website's accessibility and SEO optimization. This has been done by adding accessible alternative text 
+                  to all relevant images and substituting all HTML elements for semantic elements only. We also refactored the CSS stylesheet by consolidating statements and updating selectors.</p>
               </div>
             </div>
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./images/02-portfolio-4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a target="_blank" href="#" class="stretched-link"><h3 class="card-title">Surf website</h3></a>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui magni quaerat dolorum sapiente rem. Officiis voluptatem rem necessitatibus quam praesentium.</p>
               </div>
             </div>
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="./images/02-run-buddy.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a target="_blank" href="#" class="stretched-link"><h3 class="card-title">Run Buddy</h3></a>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur nesciunt ducimus totam perspiciatis praesentium vel, temporibus iste illum vero voluptatibus.</p>
               </div>
             </div>
           </div>
@@ -121,19 +164,27 @@
 
     </section>
 
-    <section class="row" id="contact">
+    <!-- CONTACT/footer -->
 
-    </section>
+    <footer class=" container-fluid my-5" id="contact">
+      <h2>Contact Me</h2>
 
-    <footer>
+      <div class="mt-5 d-flex justify-content-around">
+        <a href="mailto: bertaromanofernandez@gmail.com">Send me an &#128231</a>
+        <a href="tel:+447989122309">Call me &#9742</a>
+        <a href="https://www.linkedin.com/in/berta-romano-fernandez-85a51117a/">Let's connect on LinkedIn</a>
+      </div>
+
+      <div class="mt-3 d-flex justify-content-around">
+      <a href="https://github.com/berta-rf">Check out my GitHub profile</a>
+      <a href="https://www.frontendmentor.io/profile/berta-rf">Have a look at my projects on FrontEnd Mentor</a>
+      </div>
 
     </footer>
 
   </main>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
