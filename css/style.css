@@ -8,6 +8,7 @@ main {
     margin: 5%;
 }
 
+/* jumbotron background image */
 .jumbotron {
     background-image: url("../images/hero.jpg");
     background-repeat: no-repeat;
@@ -21,12 +22,15 @@ main {
 }
 
 .nav-link {
-    color: antiquewhite;
+    border-radius: 20PX;
     margin: 10px;
     padding: 10px 10px;
     font-size: 30px;
+    box-shadow: 5px 10px 18px #888888;
+
 }
 
+/* bavigation links hover effect */
 .nav-link:hover {
     color: rgb(211, 93, 47);
 }
@@ -42,9 +46,14 @@ h3 {
 }
 
 .jumbotron img {
-    border-radius: 40px;
+    border-radius: 30px;
 }
 
+.description {
+    font-weight: bold;
+}
+
+/* skills badges */
 .badge {
     background-color: rgb(238, 186, 196);
     padding: 15px;
@@ -53,10 +62,12 @@ h3 {
     color: rgb(97, 26, 12);
 }
 
+/* WORK cards */
 .card {
     border: 0;
     border-radius: 15px;
     background-color: antiquewhite;
+    box-shadow: 0px 5px 20px 0px  rgb(97, 26, 12);
 }
 
 .card img {
@@ -65,12 +76,14 @@ h3 {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
+
+/* card image hover effect */
 .card:hover img {
 	opacity: .5;
 }
 
+/* card links hover effect */
 .card:hover a {
-
     text-decoration: none;
     color: rgb(211, 93, 47);
 }
@@ -78,16 +91,19 @@ h3 {
 a {
     color: rgb(97, 26, 12);
     font-size: 24px;
+    font-weight: bold;
 }
 
 p { 
     font-size: 22px !important;
     color: rgb(97, 26, 12);
+
 }
 
-
+/* footer links hover state */
 footer a:hover {
    color: rgb(238, 186, 196);
    text-decoration: none;
+   text-shadow: 2px 2px  rgb(97, 26, 12);
 }
 

@@ -39,9 +39,10 @@
 </div>
 
 <p>
-This is a portolio website developed with Bootstrap, to show my work and share a bit about me, and make my contact details available.
+This is a portolio website developed with Bootstrap 4.6, to show my work and share a bit about me, and make my contact details available.
 In the hero section you find my name and a picture of me. The page features the sections: About Me, Work, Skills and Contact.
 When you click on the navigation links, they take you to the corresponding section.
+All links and cards have a hover effect 
 
 </p>
 
