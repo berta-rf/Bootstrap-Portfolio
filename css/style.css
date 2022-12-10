@@ -21,6 +21,10 @@ main {
     font-weight: bold;
 }
 
+.jumbotron h2 {
+    font-style:italic;
+}
+
 .nav-link {
     border-radius: 20PX;
     margin: 10px;
@@ -30,7 +34,7 @@ main {
 
 }
 
-/* bavigation links hover effect */
+/* navigation links hover effect */
 .nav-link:hover {
     color: rgb(211, 93, 47);
 }
