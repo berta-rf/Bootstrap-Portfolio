@@ -48,6 +48,10 @@ main {
 
 }
 
+.navbar-toggler:hover {
+    box-shadow: 10px 10px 20px antiquewhite;
+}
+
 h2 {
     font-size: 55px !important;
     color: antiquewhite;
